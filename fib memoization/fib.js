@@ -11,13 +11,13 @@ const newFib = (n, memo = {}) => {
     return memo[n];
 };
 
-console.time("with old approach");
-var value =oldFib(40);
-console.timeLog("with old approach",value);
+// console.time("with old approach");
+// var value =oldFib(40);
+// console.timeLog("with old approach",value);
 
-console.time("with new approach");
-var value =newFib(40);
-console.timeLog("with new approach",value);
+// console.time("with new approach");
+// var value =newFib(40);
+// console.timeLog("with new approach",value);
 
 module.exports = {
     oldFib: oldFib,
